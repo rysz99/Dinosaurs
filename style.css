@@ -1,0 +1,225 @@
+body
+{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+}
+
+#pojemnik
+{
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    letter-spacing: 5px;
+    background-color: darkgreen;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+h2
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+h3 > a
+{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+#major
+{
+    padding: 15px;
+	height: 400px;
+}
+
+#major > p
+{
+    line-height: 150%;
+    color: indianred;
+    text-align: center;
+}
+
+header > p
+{
+    color: indianred;
+}
+
+p
+{
+    line-height: 200%;
+    text-align: justify;
+}
+
+ol,ul
+{
+    list-style-type: none;
+	padding: 0;
+margin: 0;
+}
+
+ol
+{
+	display: inline-block;
+	text-align: center;
+	font-size: 8px;
+}
+
+
+ol a
+{
+    text-decoration: none;
+    color: white;
+}
+
+ol > li
+{
+    margin-top: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	float: left;
+	width: 150px;
+	padding: 10px;
+}
+
+ol > li:hover
+{
+	cursor: pointer;
+	background-color: #111;
+}
+
+ol > li:hover ul
+{
+	display: block;
+}
+
+ul
+{
+   display: none; 
+}
+
+ul > li
+{
+    text-transform: none;
+	padding: 10px;
+}
+
+ul > li:hover
+{
+	background-color: #222;
+}
+
+ul > li:first-child
+{
+	margin-top: 15px;
+	border-top: 2px solid #000;
+}
+
+ul > li a:hover
+{
+    color: darkgreen;
+}
+
+#dinozaury
+{
+    width: 1050px;
+}
+
+#dinozaury article
+{
+    padding: 30px;
+}
+
+.tekst
+{
+    float: left;
+    width: 600px;
+    padding: 0px 20px 20px 20px;
+    background-color: #303030;
+}
+
+.tekst.other
+{
+    width: 550px;
+    height: 400px;
+}
+
+.foto
+{
+    float: left;
+    width: 350px;
+}
+
+.foto.other
+{
+    width: 400px;
+}
+
+.foto-by-foto
+{
+    float: left;
+    width: 310px;
+    margin: 0px 10px;
+}
+
+.foto-by-foto.other
+{
+    width: 475px;
+}
+
+.foto-by-foto a
+{
+    text-decoration: none;
+    opacity: 0.8;
+    color: navy;
+}
+
+.foto-by-foto a:hover
+{
+    opacity: 1;
+}
+
+figure
+{
+    margin: 0;
+    padding: 0;
+}
+
+figcaption
+{
+    margin-top: 5px;
+}
+
+section
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+i
+{
+    color: mediumorchid;
+}
+
+footer
+{
+    background-color: darkgreen;
+}
+
+#koniec
+{
+    padding: 10px;
+}
