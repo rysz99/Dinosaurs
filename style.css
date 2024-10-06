@@ -58,9 +58,18 @@ header > p
 }
 
 p
-{
-    line-height: 200%;
+{
     text-align: justify;
+}
+
+header > p
+{
+    line-height: 3;
+}
+
+section > div > p
+{
+    line-height: 2.5;
 }
 
 ol,ul
