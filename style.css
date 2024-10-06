@@ -62,11 +62,7 @@ p
     text-align: justify;
 }
 
-header > p
-{
-    line-height: 3;
-}
-
+header > p,
 section > div > p
 {
     line-height: 2.5;
