@@ -4,7 +4,7 @@ body
     text-align: center;
     margin: 0px;
     background-color: black;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 #pojemnik
@@ -80,7 +80,9 @@ ol
 {
 	   display: inline-block;
 	   text-align: center;
-	   font-size: 12px;
+	   font-size: 14px;
+    position: relative;
+    z-index: 1000;
 }
 
 
