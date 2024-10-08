@@ -4,6 +4,7 @@ body
     text-align: center;
     margin: 0px;
     background-color: black;
+    font-size: 22px;
 }
 
 #pojemnik
@@ -42,7 +43,7 @@ h3 > a
 #major
 {
     padding: 15px;
-	height: 400px;
+	   height: 400px;
 }
 
 #major > p
@@ -71,15 +72,15 @@ section > div > p
 ol,ul
 {
     list-style-type: none;
-	padding: 0;
-margin: 0;
+	   padding: 0;
+    margin: 0;
 }
 
 ol
 {
-	display: inline-block;
-	text-align: center;
-	font-size: 8px;
+	   display: inline-block;
+	   text-align: center;
+	   font-size: 12px;
 }
 
 
@@ -95,20 +96,20 @@ ol > li
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-	float: left;
-	width: 150px;
-	padding: 10px;
+    float: left;
+    width: 150px;
+	   padding: 5px;
 }
 
 ol > li:hover
 {
-	cursor: pointer;
-	background-color: #111;
+	  cursor: pointer;
+	  background-color: #111;
 }
 
 ol > li:hover ul
 {
-	display: block;
+	  display: block;
 }
 
 ul
@@ -119,18 +120,18 @@ ul
 ul > li
 {
     text-transform: none;
-	padding: 10px;
+	   padding: 10px;
 }
 
 ul > li:hover
 {
-	background-color: #222;
+	  background-color: #222;
 }
 
 ul > li:first-child
 {
-	margin-top: 15px;
-	border-top: 2px solid #000;
+   	margin-top: 15px;
+	  border-top: 2px solid #000;
 }
 
 ul > li a:hover
